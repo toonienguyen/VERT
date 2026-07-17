@@ -14,15 +14,10 @@
 	import clsx from "clsx";
 	import type { Toast as ToastType } from "$lib/util/toast.svelte";
 
-	const props: {
-		toast: ToastType<unknown>;
-	} = $props();
-
-	const { id, type, message, durations } = props.toast;
-
-	const additional =
-		"additional" in props.toast ? props.toast.additional : {};
-
+	// ✅ THAY BẰNG ĐOẠN MỚI NÀY:
+const { toast }: { toast: ToastType<unknown> } = $props();
+const { id, type, message, durations } = toast;
+const additional = toast && "additional" in toast ? (toast as any).additional : {};
 	const colors = {
 		success: "purple",
 		error: "red",
