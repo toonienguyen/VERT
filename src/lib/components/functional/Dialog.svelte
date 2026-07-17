@@ -8,9 +8,8 @@
 	type Props = DialogType;
 
 	let props: Props = $props();
-	const { id, title, message, buttons, type } = props;
-	const additional = "additional" in props ? props.additional : undefined;
-
+	const { id, title, message, buttons, type, ...rest }: Props = $props();
+const additional = rest && "additional" in rest ? (rest as any).additional : undefined;
 	const colors = {
 		success: "purple",
 		error: "red",
