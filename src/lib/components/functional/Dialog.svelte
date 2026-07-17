@@ -7,7 +7,7 @@
 
 	type Props = DialogType;
 
-	let props: Props = $props();
+	
 	const { id, title, message, buttons, type, ...rest }: Props = $props();
 const additional = rest && "additional" in rest ? (rest as any).additional : undefined;
 	const colors = {
