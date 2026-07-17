@@ -45,7 +45,7 @@
 		"@fontsource/lexend": "^5.2.11",
 		"@fontsource/radio-canada-big": "^5.2.7",
 		"@imagemagick/magick-wasm": "^0.0.37",
-		"@stripe/stripe-js": "^8.5.2",
+		"@stripe/stripe-js": "^4.0.0",
 		"byte-data": "^19.0.1",
 		"client-zip": "^2.5.0",
 		"clsx": "^2.1.1",
