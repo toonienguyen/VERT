@@ -161,3 +161,4 @@ function waitForMessage(worker: Worker, type?: string): Promise<any> {
 		worker.addEventListener("message", onMessage);
 	});
 }
+
