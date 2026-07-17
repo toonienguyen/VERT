@@ -22,8 +22,7 @@ export class PandocConverter extends Converter {
 this.wasm = await fetch(
     "https://pub-96f1f57023f14b549baaa0cd62042149.r2.dev/pandoc.wasm",
 ).then((r) => r.arrayBuffer());
-					r.arrayBuffer(),
-				);
+					
 
 				this.status = "ready";
 			} catch (err) {
