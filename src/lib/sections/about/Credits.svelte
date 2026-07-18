@@ -27,11 +27,13 @@
 				src={avatar}
 				alt={name}
 				title={name}
-				class="{smaller
-					? 'w-12 h-12 hoverable'
-					: role
-						? 'w-14 h-14 hoverable-md'
-						: 'w-10 h-10 hoverable-lg'} rounded-full"
+				class={`${
+					smaller
+						? 'w-12 h-12 hoverable'
+						: role
+							? 'w-14 h-14 hoverable-md'
+							: 'w-10 h-10 hoverable-lg'
+				} rounded-full`}
 			/>
 		</a>
 		{#if role}
