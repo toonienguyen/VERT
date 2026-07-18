@@ -5,27 +5,27 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://vert.sh/</loc>
+    <loc>https://verttools.pages.dev/</loc>
     <lastmod>2025-10-17T19:23:05+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://vert.sh/convert/</loc>
+    <loc>https://verttools.pages.dev/</loc>
     <lastmod>2025-10-17T19:23:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vert.sh/settings/</loc>
+    <loc>https://verttools.pages.dev/</loc>
     <lastmod>2025-10-17T19:23:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vert.sh/about/</loc>
+    <loc>https://verttools.pages.dev/</loc>
     <lastmod>2025-10-17T19:23:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://vert.sh/privacy/</loc>
+    <loc>https://verttools.pages.dev/</loc>
     <lastmod>2025-10-17T19:23:05+00:00</lastmod>
     <priority>0.80</priority>
   </url>
