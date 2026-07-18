@@ -314,7 +314,8 @@ Mở domain `.pages.dev`, kiểm tra:
 ---
 
 ## Ghi chú thêm
-
+- src/routes/about/+page.svelte sửa About 
+- src/lib/components/layout/Footer.svelte sửa footer chân trang 
 - Repo gốc: [VERT-sh/VERT](https://github.com/VERT-sh/VERT)
 - Server `vertd` (nếu sau này muốn tự host để bật lại video): [VERT-sh/vertd](https://github.com/VERT-sh/vertd)
 - Tài liệu chính thức về video conversion: xem `docs/VIDEO_CONVERSION.md` trong repo gốc
