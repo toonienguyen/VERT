@@ -8,8 +8,8 @@
 	<div
 		class="w-full h-full flex items-center justify-center text-muted gap-3 relative"
 	>
-		<!-- Chỉ giữ lại đúng dòng chữ bản quyền, tự động đổi chữ VERT thành verttools nếu anh thích -->
-		<p>© {year} verttools</p>
+		<!-- Chỉ giữ lại đúng dòng chữ bản quyền, tự động đổi chữ VERT thành 𝕍𝔼ℝ𝕋 𝕋𝕆𝕆𝕃𝕊 nếu anh thích -->
+		<p>© {year} 𝕍𝔼ℝ𝕋 𝕋𝕆𝕆𝕃𝕊</p>
 	</div>
 
 	<div
