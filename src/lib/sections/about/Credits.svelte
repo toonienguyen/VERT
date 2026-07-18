@@ -7,10 +7,8 @@
 	} from "$lib/util/consts";
 	import { m } from "$lib/paraglide/messages";
 	import { link, sanitize } from "$lib/store/index.svelte";
-
 	let { mainContribs, notableContribs, ghContribs } = $props();
 </script>
-
 {#snippet contributor(
 	name: string,
 	github: string,
@@ -19,7 +17,7 @@
 	smaller?: boolean,
 )}
 	<div class="flex items-center gap-4" class:gap-1={smaller}>
-		<a
+		
 			href={github}
 			target="_blank"
 			rel="noopener noreferrer"
@@ -50,7 +48,6 @@
 		{/if}
 	</div>
 {/snippet}
-
 <Panel class="flex flex-col gap-8 p-6">
 	<h2 class="text-2xl font-bold flex items-center">
 		<div class="rounded-full bg-blue-300 p-2 inline-block mr-3 w-10 h-10">
@@ -58,11 +55,9 @@
 		</div>
 		{m["about.credits.title"]()}
 	</h2>
-
 	<p class="-mt-4 -mb-3 font-black text-lg">
 		{m["about.credits.contact_team"]()}
 	</p>
-
 	<!-- Main contributors -->
 	<div class="flex flex-col gap-4">
 		<div class="flex flex-col flex-wrap gap-2">
@@ -72,7 +67,6 @@
 			{/each}
 		</div>
 	</div>
-
 	<!-- Notable contributors -->
 	<div class="flex flex-col gap-4">
 		<div class="flex flex-col gap-1">
@@ -91,7 +85,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- GitHub contributors -->
 		{#if !DISABLE_ALL_EXTERNAL_REQUESTS}
 			<div class="flex flex-col gap-4">
@@ -123,7 +116,6 @@
 						</p>
 					{/if}
 				</div>
-
 				{#if ghContribs && ghContribs.length > 0}
 					<div class="flex flex-row flex-wrap gap-2">
 						{#each ghContribs as contrib}
@@ -133,11 +125,10 @@
 					</div>
 				{/if}
 			</div>
-
-			<h2 class="mt-2 -mb-2">{m["about.credits.libraries"]()}</h2>
-			<p class="font-normal">
-				{m["about.credits.libraries_description"]()}
-			</p>
 		{/if}
+		<h2 class="mt-2 -mb-2">{m["about.credits.libraries"]()}</h2>
+		<p class="font-normal">
+			{m["about.credits.libraries_description"]()}
+		</p>
 	</div>
 </Panel>
